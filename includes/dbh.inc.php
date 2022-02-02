@@ -1,9 +1,10 @@
 <?php
 
+$conn = null;
 $serverName = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "memser_php";
+$dbName = "memser_db";
 
 $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
 
